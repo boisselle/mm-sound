@@ -68,6 +68,10 @@ Global Styles
   font-size: 0.875rem;
   margin-top: 5rem;
 } */
+body {
+  line-height: 1.4;
+}
+
 ul {
   list-style-type: none;
 }
@@ -127,6 +131,64 @@ p {
 } */
 
 /*  global classes */
+
+.mainPage {
+  padding: 100px;
+}
+
+@media screen and (min-width: 450px) {
+  .mainPage h1 {
+    font-size: 28px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage h2 {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .mainPage h1 {
+    font-size: 36px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage h2 {
+    font-size: 24px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainPage h1 {
+    font-size: 40px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage h2 {
+    font-size: 28px;
+    letter-spacing: 0.7px;
+  }
+
+  .mainPage p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+}
 
 .btn {
   text-transform: uppercase;
